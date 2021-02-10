@@ -12,8 +12,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-// routes to be added
-// routes to be added
+
+app.use(require("./routes/apiroutes.js"));
+
+require("./routes/htmlroutes")(app);
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
