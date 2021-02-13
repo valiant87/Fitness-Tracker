@@ -15,7 +15,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 [Heroku Deployment](https://murmuring-island-42681.herokuapp.com/exercise?id=602754bf1cdcdc0015aeef07)
 
-## ![demo]()
+## ![demo](workout.gif)
 
 ## About the project
 
